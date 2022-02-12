@@ -1,0 +1,46 @@
+repos:
+- repo: git://github.com/pre-commit/pre-commit-hooks
+  rev: v3.4.0
+  hooks:
+  - id: check-yaml
+  - id: end-of-file-fixer
+  - id: fix-byte-order-marker
+  - id: trailing-whitespace
+- repo: git://github.com/sirosen/check-jsonschema
+  rev: 0.3.0
+  hooks:
+  - id: check-github-workflows
+- repo: git://github.com/executablebooks/mdformat
+  rev: 0.6.4   # Use the ref you want to point at
+  hooks:
+  - id: mdformat
+        # Optionally add plugins
+    additional_dependencies:
+    - mdformat-gfm
+    - mdformat-black
+- repo: git://github.com/macisamuele/language-formatters-pre-commit-hooks
+  rev: v2.0.0
+  hooks:
+  - id: pretty-format-yaml
+    args: [--autofix, --indent, '2']
+- repo: git://github.com/yiranzai/pre-commit-golang
+  rev: v0.3.7
+  hooks:
+  - id: go-fmt
+  - id: go-vet
+  - id: go-mod-tidy
+  - id: golines
+  - id: go-imports
+  - id: go-unit-tests
+
+      #      - id: go-lint
+#      - id: go-imports
+#      - id: go-cyclo
+#        args: [-over=15]
+#      - id: validate-toml
+#      - id: no-go-testing
+#      - id: gometalinter
+#      - id: golangci-lint
+#      - id: go-critic
+#      - id: go-unit-tests
+#      - id: go-build

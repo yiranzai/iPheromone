@@ -1,3 +1,3 @@
-module github.com/lupguo/ddd-layout
+module github.com/yiranzai/golang-project-template
 
 go 1.16
