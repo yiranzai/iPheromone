@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/yiranzai/golang-project-template/cmd"
+)
 
 func main() {
-	fmt.Println("test")
+	cmd.Execute()
 }
