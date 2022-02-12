@@ -14,25 +14,24 @@
 ______________________________________________________________________
 
 <!--ts-->
+   * [iPheromone](#-ipheromone)
+      * [Table of contents](#-table-of-contents)
+      * [Setup](#-setup)
+      * [Usage](#️-usage)
+         * [Install](#-install)
+         * [Test](#-test)
+         * [<a href="https://pre-commit.com/" rel="nofollow">Pre-commit</a>](#-pre-commit)
+      * [Relations](#-relations)
+         * [Packages](#-packages)
+         * [Github Workflows](#-github-workflows)
+            * [Golang Test And Coverage](#golang-test-and-coverage)
+            * [<a href="https://github.com/pantheon-systems/autotag">Autotag</a>](#autotag)
+            * [<a href="https://github.com/goreleaser/goreleaser-action">Goreleaser</a>](#goreleaser)
+            * [<a href="https://github.com/crazy-max/ghaction-import-gpg">ghaction-import-gpg</a>](#ghaction-import-gpg)
+            * [<a href="https://github.com/yiranzai/github-markdown-toc">Github Markdown TOC</a>](#github-markdown-toc)
+      * [License](#license)
 
-- [iPheromone](#-ipheromone)
-  - [Table of contents](#-table-of-contents)
-  - [Setup](#-setup)
-  - [Usage](#%EF%B8%8F-usage)
-    - [Install](#-install)
-    - [Test](#-test)
-    - [<a href="https://pre-commit.com/" rel="nofollow">Pre-commit</a>](#-pre-commit)
-  - [Relations](#-relations)
-    - [Packages](#-packages)
-    - [Github Workflows](#-github-workflows)
-      - [Golang Test And Coverage](#golang-test-and-coverage)
-      - [<a href="https://github.com/pantheon-systems/autotag">Autotag</a>](#autotag)
-      - [<a href="https://github.com/goreleaser/goreleaser-action">Goreleaser</a>](#goreleaser)
-      - [<a href="https://github.com/crazy-max/ghaction-import-gpg">ghaction-import-gpg</a>](#ghaction-import-gpg)
-      - [<a href="https://github.com/yiranzai/github-markdown-toc">Github Markdown TOC</a>](#github-markdown-toc)
-  - [License](#license)
-
-<!-- Added by: runner, at: Sat Feb 12 09:21:10 UTC 2022 -->
+<!-- Added by: runner, at: Sat Feb 12 09:28:07 UTC 2022 -->
 
 <!--te-->
 
