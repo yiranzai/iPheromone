@@ -3,8 +3,8 @@ package myapp
 import (
 	"context"
 
-	"github.com/yiranzai/golang-project-template/app/application"
-	"github.com/yiranzai/golang-project-template/app/interfaces"
+	"github.com/yiranzai/iPheromone/app/application"
+	"github.com/yiranzai/iPheromone/app/interfaces"
 )
 
 func main() {

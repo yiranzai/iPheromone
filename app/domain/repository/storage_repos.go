@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/yiranzai/golang-project-template/app/domain/entity"
+	"github.com/yiranzai/iPheromone/app/domain/entity"
 )
 
 type IReposStorage interface {

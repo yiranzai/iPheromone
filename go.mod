@@ -1,3 +1,3 @@
-module github.com/yiranzai/golang-project-template
+module github.com/yiranzai/iPheromone
 
 go 1.16

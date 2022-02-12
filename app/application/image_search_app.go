@@ -1,7 +1,7 @@
 package application
 
 import (
-	"github.com/yiranzai/golang-project-template/app/domain/entity"
+	"github.com/yiranzai/iPheromone/app/domain/entity"
 )
 
 // ISearchApp 搜索接口
