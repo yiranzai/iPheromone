@@ -13,7 +13,7 @@ var cfgPath string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "golang-project-template",
+	Use:   "iPheromone",
 	Short: "Golang project general template",
 	Long: `Golang project general template,
 				For yiranzai.`,

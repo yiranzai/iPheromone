@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/yiranzai/golang-project-template/cmd"
+	"github.com/yiranzai/iPheromone/cmd"
 )
 
 func main() {
