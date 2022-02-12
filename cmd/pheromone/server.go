@@ -1,4 +1,4 @@
-package cmd
+package pheromone
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-var serverCmd = &cobra.Command{
+var ServerCmd = &cobra.Command{
 	Use:     "server [string to server]",
 	Aliases: []string{"svr"},
 	Short:   "server cmd",

@@ -1,4 +1,4 @@
-package cmd
+package pheromone
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-var clientCmd = &cobra.Command{
+var ClientCmd = &cobra.Command{
 	Use:     "client [string to client]",
 	Aliases: []string{"cli"},
 	Short:   "client cmd",

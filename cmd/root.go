@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+	"github.com/yiranzai/iPheromone/cmd/pheromone"
 	"os"
 	"strings"
 
@@ -38,6 +39,6 @@ func init() {
 	// Here you will define your flags and configuration settings.
 	// Cobra supports persistent flags, which, if defined here,
 	// will be global for your application.
-	rootCmd.PersistentFlags().StringVarP(&cfgPath, "config", "f", "./configs/config.example.yaml", "config file path")
-	rootCmd.AddCommand(clientCmd, serverCmd)
+	rootCmd.PersistentFlags().StringVarP(&cfgPath, "config", "f", "./configs/config.yaml", "config file path")
+	rootCmd.AddCommand(pheromone.ClientCmd, pheromone.ServerCmd)
 }
