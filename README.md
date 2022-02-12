@@ -14,23 +14,33 @@ Golang project general template for me.
 ______________________________________________________________________
 
 <!--ts-->
-* [golang-project-template](#golang-project-template)
-  * [目录](#目录)
-  * [Setup](#setup)
-    * [Setup by Command](#setup-by-command)
-    * [Setup on GitHub](#setup-on-github)
-  * [Usage](#usage)
-    * [Install](#install)
-    * [Test](#test)
-    * [<a href="https://pre-commit.com/" rel="nofollow">Pre-commit</a>](#pre-commit)
-  * [Github Workflows](#github-workflows)
-    * [Golang Test And Coverage](#golang-test-and-coverage)
-    * [<a href="https://github.com/pantheon-systems/autotag">Autotag</a>](#autotag)
-    * [<a href="https://github.com/goreleaser/goreleaser-action">Goreleaser</a>](#goreleaser)
-    * [<a href="https://github.com/yiranzai/github-markdown-toc">Github Markdown TOC</a>](#github-markdown-toc)
-  * [License](#license)
+   * [golang-project-template](#golang-project-template)
+      * [Table of contents](#table-of-contents)
+      * [Setup](#setup)
+         * [Setup by Command](#setup-by-command)
+         * [Setup on GitHub](#setup-on-github)
+      * [Usage](#usage)
+         * [Install](#install)
+         * [Test](#test)
+         * [<a href="https://pre-commit.com/" rel="nofollow">Pre-commit</a>](#pre-commit)
+      * [Github Workflows](#github-workflows)
+         * [Golang Test And Coverage](#golang-test-and-coverage)
+         * [<a href="https://github.com/pantheon-systems/autotag">Autotag</a>](#autotag)
+         * [<a href="https://github.com/goreleaser/goreleaser-action">Goreleaser</a>](#goreleaser)
+         * [<a href="https://github.com/crazy-max/ghaction-import-gpg">ghaction-import-gpg</a>](#ghaction-import-gpg)
+         * [<a href="https://github.com/yiranzai/github-markdown-toc">Github Markdown TOC</a>](#github-markdown-toc)
+      * [License](#license)
+      * [base on <a href="https://github.com/lupguo/ddd-layout">lupguo/ddd-layout</a>](#base-on-lupguoddd-layout)
+         * [DDD布局](#ddd布局)
+            * [背景](#背景)
+            * [目录说明](#目录说明)
+            * [分层说明](#分层说明)
+               * [领域层（业务核心）：](#领域层业务核心)
+               * [应用层（流程编排）：](#应用层流程编排)
+               * [接口层：](#接口层)
+               * [基础层：](#基础层)
 
-<!-- Added by: runner, at: Sat Apr 10 09:08:32 UTC 2021 -->
+<!-- Added by: runner, at: Sat Feb 12 08:02:19 UTC 2022 -->
 
 <!--te-->
 
