@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/yiranzai/golang-project-template/app/domain/entity"
-	"github.com/yiranzai/golang-project-template/app/domain/repository"
+	"github.com/yiranzai/iPheromone/app/domain/entity"
+	"github.com/yiranzai/iPheromone/app/domain/repository"
 )
 
 type IServiceSearch interface {

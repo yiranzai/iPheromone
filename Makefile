@@ -1,4 +1,4 @@
-PROJECT="golang-project-template"
+PROJECT="iPheromone"
 
 default:
 	go build -o ./bin
