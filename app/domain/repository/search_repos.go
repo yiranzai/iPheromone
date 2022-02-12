@@ -1,11 +1,10 @@
 package repository
 
 import (
-	"github.com/lupguo/ddd-layout/app/domain/entity"
+	"github.com/yiranzai/golang-project-template/app/domain/entity"
 )
 
 type SearchImage struct {
-
 }
 
 type IReposSearch interface {

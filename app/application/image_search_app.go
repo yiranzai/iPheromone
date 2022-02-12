@@ -1,7 +1,7 @@
 package application
 
 import (
-	"github.com/lupguo/ddd-layout/app/domain/entity"
+	"github.com/yiranzai/golang-project-template/app/domain/entity"
 )
 
 // ISearchApp 搜索接口
@@ -11,7 +11,6 @@ type ISearchApp interface {
 
 // ImgSearchApp 图片搜索结构体
 type ImgSearchApp struct {
-	
 }
 
 // Search 接口实现

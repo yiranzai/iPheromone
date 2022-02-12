@@ -1,10 +1,9 @@
 package application
 
 import (
-	"github.com/lupguo/ddd-layout/app/domain/service"
+	"github.com/yiranzai/golang-project-template/app/domain/service"
 )
 
 type ImageUploadApp struct {
 	uploadSrv service.IServiceUpload
 }
-

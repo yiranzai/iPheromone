@@ -3,8 +3,8 @@ package service
 import (
 	"os"
 
-	"github.com/lupguo/ddd-layout/app/domain/entity"
-	"github.com/lupguo/ddd-layout/app/domain/repository"
+	"github.com/yiranzai/golang-project-template/app/domain/entity"
+	"github.com/yiranzai/golang-project-template/app/domain/repository"
 )
 
 type IServiceUpload interface {
@@ -26,4 +26,3 @@ func (s *UploadImageSrv) UploadImage(uploads []*os.File) ([]*entity.UploadImage,
 func (s *UploadImageSrv) FindUploadImage(ids []uint64) ([]*entity.UploadImage, error) {
 	return s.dbRepos.FindImage(ids)
 }
-

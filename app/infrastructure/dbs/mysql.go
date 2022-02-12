@@ -1,11 +1,10 @@
 package dbs
 
 import (
-	"github.com/lupguo/ddd-layout/app/domain/entity"
+	"github.com/yiranzai/golang-project-template/app/domain/entity"
 )
 
 type Dbs struct {
-
 }
 
 func (d *Dbs) SaveImage(imgs []*entity.UploadImage) ([]*entity.UploadImage, error) {

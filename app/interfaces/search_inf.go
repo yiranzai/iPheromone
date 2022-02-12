@@ -3,7 +3,7 @@ package interfaces
 import (
 	"context"
 
-	"github.com/lupguo/ddd-layout/app/application"
+	"github.com/yiranzai/golang-project-template/app/application"
 )
 
 // SearchInf 搜索接口
@@ -16,7 +16,7 @@ func NewSearchInf(app *application.ImgSearchApp) *SearchInf {
 }
 
 // Search 搜索
-func (i *SearchInf) Search(ctx context.Context, req interface{}, rsp interface{}) error  {
+func (i *SearchInf) Search(ctx context.Context, req interface{}, rsp interface{}) error {
 	// 1. 入参校验
 
 	// 2. 业务转发
